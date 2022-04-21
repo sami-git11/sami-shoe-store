@@ -1,0 +1,11 @@
+.card_container{
+    max-width: 345px;
+    min-height: 345px;
+}
+@media only screen and (max-width: 600px){
+    .card_container{
+        max-width: 345px;
+        min-height: 280px;
+    }
+
+}

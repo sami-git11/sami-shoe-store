@@ -1,0 +1,24 @@
+.searchbar{
+    padding: 10px 25px;
+    border-radius: 3px;
+    border: 1px solid #7b7777;
+    background: transparent;
+    color: #fff;
+    font-size: 17px;
+}
+.searchbar::placeholder{
+    color: #fff;
+}
+.active-searchbar{
+    color: #000;
+}
+.active-searchbar::placeholder{
+    color: #000;
+}
+
+@media only screen and (max-width: 600px) {
+    .searchbar{
+        width: 100%;
+       
+    }
+}

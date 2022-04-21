@@ -1,0 +1,15 @@
+.hero{
+    overflow-y: hidden;
+}
+.hero-content{
+    color: #fff;
+    margin: 280px 0 50px 70px!important;
+}
+@media only screen and (max-width: 600px) {
+    .hero_product_name{
+        font-size: 30px!important;
+    }
+    .hero-content{
+        margin: 215px 0 50px 70px;
+    }
+}

@@ -1,0 +1,10 @@
+.navbar{
+    background: transparent!important;
+    box-shadow: none!important;
+    padding: 8px 10px;
+    
+}
+.active{
+    background-color: #fff!important;
+    color: #000!important;
+}
